@@ -53,14 +53,42 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand</p>",
+            "heading": "<p>arai-labo.</p>",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>arai-labo.は長野県の鉄工所「新井鉄工所」の古物取扱部門です。｢古いものを大切にする暮らし｣｢今あるものを大切にする暮らし｣｢ものづくりを楽しむ暮らし｣を楽しむ方のために、鉄工所ならではの中古機械工具・アイアン雑貨・ジャンク雑貨を販売しています。<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text2": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>各種サービスのご案内</p>",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>サービス<\/p>"
           }
         }
       },
@@ -203,6 +231,7 @@
   "order": [
     "image_banner",
     "rich_text",
+    "rich_text2",
     "featured_collection",
     "collage",
     "video",
